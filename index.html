@@ -12,11 +12,10 @@
 </head>
 
 <body>
-  <audio src="weliketoparty.mp3" autoplay>
-    <p>If you are reading this, it is because your browser does not support the audio element.     </p>
-    <embed src="weliketoparty.mp3" width="180" height="90" hidden="true" />
-    </audio>
-</embed>
+  <iframe src="silence.mp3" allow="autoplay" id="audio" style="display: none"></iframe>
+  <audio id="player" autoplay loop>
+    <source src="weliketoparty.mp3" type="audio/mp3">
+  </audio>
 <div>
     <h1>Groupenstock</h1>
     <h2><a href="leaderboard.html">Fish Leaderboard</a></h2>
