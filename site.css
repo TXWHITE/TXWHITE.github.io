@@ -1,0 +1,11 @@
+h1 {
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, Helvetica, sans-serif;
+}
+
+div {
+    margin: auto;
+    width: 50%;
+}
+table, th, td {
+    border: 1px solid black;
+  }
